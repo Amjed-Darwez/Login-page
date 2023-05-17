@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main{
+    margin-top: 100px;
+    
+    border-radius: 12px;
+    background-color: white;
+    width: 50%;
+    height: 60vh;
+}
+.section {
+    border-radius: 12px;
+    
+    box-shadow: 10px 5px 10px 5px rgb(171,171,171);    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+#email , #password{
+    padding: 10px 30px;
+}
+#signin{
+    color: white;
+    background-color: #FF4455;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    border: none;
+
+}
+#signin:hover{
+    background-color: #ff4454c2;
+}
+
+.section1 {
+
+    /* float: left; */
+    text-align: center;
+    margin: auto;
+    /* height: 100vh; */
+    /* padding-top: 200px; */
+    /* width: 50%; */
+    
+    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.h1 {
+     margin-top: auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+
+
+
+}
+
+.section2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 2px 5px 2px 5px (171,171,171);    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: white;
+    /* width: 50%; */
+    background-color: #FF4455;
+    height: 100%;
+  /*   float: right;
+  text-align: center; */
+   /* padding-top: 200px; */
+  /* height: 100vh; */
+
+
+
+}
+#password ,#email {
+    border: none;
+    background-color: rgb(231, 225, 225);
+
+}
+#signup{
+    color: white;
+    background-color: #FF4455;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 10px 30px;
+}
+
+h3{
+    
+    
+    font-weight: 200;
+   margin-bottom: 0px;
+    font-style: oblique;
+    font-size:medium;
+}
+h4{
+    
+    margin: 0px 10px;
+     
+   
+    font-style: oblique;
+    font-size:medium;
+}
+.a{
+  border: 1px solid rgb(167, 160, 160); 
+    border-radius: 50%;
+    padding: 8px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+}
