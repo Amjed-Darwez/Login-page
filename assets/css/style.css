@@ -106,6 +106,10 @@ form{
     border-radius: 20px;
     margin: 100px;
     padding: 10px 30px;
+    border: none;
+}
+#signup:hover{
+    background-color: #FF4455;
 }
 
 h3{
